@@ -28,10 +28,10 @@ public class InitItems {
             "fire_axe",
             () -> new SwordItem(
                     Tiers.NETHERITE,
-                    5,//Damage
+                    5000,//Damage
                     3.5f,//Attack kSpeed
                     new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant()
-            ).
+            )
     );
 
 }
