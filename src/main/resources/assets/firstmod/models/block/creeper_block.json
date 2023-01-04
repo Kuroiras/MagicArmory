@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "firstmod:blocks/creeper_block"
+    "all": "magicarmory:blocks/creeper_block"
   }
 
 }

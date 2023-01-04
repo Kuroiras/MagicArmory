@@ -1,7 +1,7 @@
 {
   "variants":{
     "": {
-      "model": "firstmod:block/rainbow_block"
+      "model": "magicarmory:block/rainbow_block"
     }
   }
 }

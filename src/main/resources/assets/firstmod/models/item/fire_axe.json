@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "firstmod:items/fire_axe"
+    "layer0": "magicarmory:items/fire_axe"
   }
 }

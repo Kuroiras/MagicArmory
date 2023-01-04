@@ -1,7 +1,7 @@
 {
   "variants":{
     "": {
-      "model": "firstmod:block/bloody_wood"
+      "model": "magicarmory:block/bloody_wood"
     }
   }
 }

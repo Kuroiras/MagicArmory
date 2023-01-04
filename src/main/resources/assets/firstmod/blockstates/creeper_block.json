@@ -1,7 +1,7 @@
 {
   "variants":{
     "": {
-      "model": "firstmod:block/creeper_block"
+      "model": "magicarmory:block/creeper_block"
     }
   }
 }

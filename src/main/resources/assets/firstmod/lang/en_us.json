@@ -1,7 +1,7 @@
 {
-  "item.firstmod.pokeball":"Pokeball",
-  "block.firstmod.rainbow_block":"Rainbow Block",
-  "block.firstmod.creeper_block":"Creeper Block",
-  "block.firstmod.bloody_wood":"Bloody Wood",
-  "item.firstmod.fire_axe":"Fenix Fireaxe ***"
+  "item.magicarmory.pokeball":"Pokeball",
+  "block.magicarmory.rainbow_block":"Rainbow Block",
+  "block.magicarmory.creeper_block":"Creeper Block",
+  "block.magicarmory.bloody_wood":"Bloody Wood",
+  "item.magicarmory.fire_axe":"Fenix Fireaxe ***"
 }

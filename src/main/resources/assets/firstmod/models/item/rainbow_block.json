@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "firstmod:blocks/rainbow_block"
+    "layer0": "magicarmory:blocks/rainbow_block"
   }
 
 }
