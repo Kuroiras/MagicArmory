@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "top": "firstmod:blocks/bloody_wood_top",
-    "bottom": "firstmod:blocks/bloody_wood_top"
-
-  }
-
-}

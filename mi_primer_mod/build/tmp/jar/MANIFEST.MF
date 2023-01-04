@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: firstmod
-Specification-Vendor: firstmodsareus
-Specification-Version: 1
-Implementation-Title: mi_primer_mod
-Implementation-Version: 1.0.0
-Implementation-Vendor: firstmodsareus
-Implementation-Timestamp: 2023-01-04T00:14:03-0600
-
