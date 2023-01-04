@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:iron_helmet"
+    },
+    [
+      {
+        "item": "minecraft:spider_eye"
+      },
+      {
+        "item": "minecraft:spider_eye"
+      }
+    ]
+  ],
+  "result": {
+    "item": "minecraft:diamond_helmet"
+  }
+}

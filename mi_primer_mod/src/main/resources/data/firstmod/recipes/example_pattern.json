@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " o ",
+    "o o",
+    " p "
+  ],
+  "key": {
+    "o": {
+      "item": "minecraft:acacia_leaves"
+    },
+    "p": {
+      "item": "minecraft:acacia_wood"
+    }
+  },
+  "result": {
+    "item": "minecraft:acacia_sapling",
+    "count": 3
+  }
+}
