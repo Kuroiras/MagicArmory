@@ -47,6 +47,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2023-01-04 19:33:23 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2023-01-04 00:15:51 -0600"
@@ -334,6 +340,12 @@
       "minecraft:zombie": "2023-01-04 01:07:54 -0600"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2023-01-04 19:33:23 -0600"
+    },
+    "done": true
   },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
