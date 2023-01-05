@@ -22,17 +22,21 @@ public class BlockInit {
     public static final RegistryObject<Block> RAINBOW_BLOCK = register(
             "rainbow_block",
             ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).friction(0.5f).destroyTime(3)),
-                    new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS));
+                    new Item.Properties().tab(CreativeModeTab.TAB_MISC));
 
     public static final RegistryObject<Block> BLOODY_WOOD = register(
             "bloody_wood",
-            ()-> new Block(BlockBehaviour.Properties.of(Material.WOOD).destroyTime(2)),
-            new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS));
+            ()-> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(3.5f).requiresCorrectToolForDrops()),
+            new Item.Properties().tab(CreativeModeTab.TAB_MISC));
 
     public static final RegistryObject<Block> CREEPER_BLOCK = register(
             "creeper_block",
             ()-> new Block(BlockBehaviour.Properties.of(Material.DECORATION).destroyTime(2)),
-            new Item.Properties().tab(CreativeModeTab.TAB_DECORATIONS));
+            new Item.Properties().tab(CreativeModeTab.TAB_MISC));
+
+
+
+
 
     private static <T extends Block> RegistryObject<T> register(
             String name,

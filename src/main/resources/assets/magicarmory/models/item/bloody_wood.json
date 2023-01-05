@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "magicarmory:blocks/bloody_wood"
+    "layer0": "magicarmory:items/bloody_wood"
   }
 
 }
