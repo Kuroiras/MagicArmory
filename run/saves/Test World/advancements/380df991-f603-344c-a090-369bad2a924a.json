@@ -185,6 +185,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2023-01-05 19:17:56 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2023-01-04 01:07:28 -0600"
@@ -308,6 +314,12 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2023-01-04 21:27:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2023-01-05 19:17:56 -0600"
     },
     "done": true
   },
@@ -494,6 +506,7 @@
       "minecraft:skeleton": "2023-01-04 01:07:25 -0600",
       "minecraft:vindicator": "2023-01-04 00:17:18 -0600",
       "minecraft:spider": "2023-01-04 01:07:30 -0600",
+      "minecraft:creeper": "2023-01-05 19:17:55 -0600",
       "minecraft:zombie": "2023-01-04 01:07:54 -0600"
     },
     "done": false
@@ -615,6 +628,12 @@
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2023-01-04 21:27:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2023-01-05 23:58:48 -0600"
     },
     "done": true
   },

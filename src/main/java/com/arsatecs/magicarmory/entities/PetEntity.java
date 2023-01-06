@@ -1,5 +1,6 @@
 package com.arsatecs.magicarmory.entities;
 
+import com.arsatecs.magicarmory.init.MobsInit;
 import net.minecraft.core.particles.ParticleOptions;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.server.level.ServerLevel;
@@ -24,14 +25,14 @@ import org.jetbrains.annotations.Nullable;
 import static net.minecraft.world.entity.animal.Turtle.FOOD_ITEMS;
 
 public class PetEntity extends TamableAnimal {
-    protected PetEntity(EntityType<? extends TamableAnimal> p_21803_, Level p_21804_) {
+    public PetEntity(EntityType<? extends TamableAnimal> p_21803_, Level p_21804_) {
         super(p_21803_, p_21804_);
     }
 
     @Nullable
     @Override
     public AgeableMob getBreedOffspring(ServerLevel p_146743_, AgeableMob p_146744_) {
-        return null;
+        return MobsInit.PET.get().create(p_146743_);
     }
 
     @Override
@@ -55,7 +56,7 @@ public class PetEntity extends TamableAnimal {
     public static AttributeSupplier.Builder getPetEntityAttrs() {
         return Mob.createMobAttributes()
                 .add(ForgeMod.ENTITY_GRAVITY.get(), 2f)
-                .add(Attributes.MOVEMENT_SPEED, 0.300);
+                .add(Attributes.MOVEMENT_SPEED, 0.30D);
     }
 
     @Override
@@ -75,7 +76,7 @@ public class PetEntity extends TamableAnimal {
 //            double d0 = this.random.nextGaussian() * 0.020;
 //            double d1 = this.random.nextGaussian() * 0.020;
 //            double d2 = this.random.nextGaussian() * 0.020;
-//            this.level.addParticle(particleOptions, this.getRandomX(1.00, ));
+//            this.level.addParticle(particleOptions, this.getRandomX(1.0D), );
 //
 //        }
 //    }

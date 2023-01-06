@@ -26,7 +26,7 @@ public class BlockInit {
 
     public static final RegistryObject<Block> BLOODY_WOOD = register(
             "bloody_wood",
-            ()-> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(3.5f).requiresCorrectToolForDrops()),
+            ()-> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(4f)),
             new Item.Properties().tab(CreativeModeTab.TAB_MISC));
 
     public static final RegistryObject<Block> CREEPER_BLOCK = register(
