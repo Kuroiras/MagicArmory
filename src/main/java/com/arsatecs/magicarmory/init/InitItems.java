@@ -31,9 +31,9 @@ public class InitItems {
             )
     );
 
-    public static final RegistryObject<Item> EMERAL_INGOT = ITEMS.register(
+    public static final RegistryObject<Item> EMERALD_INGOT = ITEMS.register(
             "emerald_ingot",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS))
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).fireResistant())
     );
 
 
@@ -43,7 +43,7 @@ public class InitItems {
                     com.arsatecs.magicarmory.world.item.Tiers.EMERALD,
                     5.0F,
                     -3.0F,
-                    new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)
+                    new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant()
             )
     );
 
@@ -53,8 +53,64 @@ public class InitItems {
                     com.arsatecs.magicarmory.world.item.Tiers.EMERALD,
                     3,
                     -2.4F,
-                    new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)
+                    new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant()
             )
     );
+
+    public static final RegistryObject<PickaxeItem> EMERALD_PICKAXE = ITEMS.register(
+            "emerald_pickaxe",
+            () -> new PickaxeItem(
+                    com.arsatecs.magicarmory.world.item.Tiers.EMERALD,
+                    1,
+                    -2.8F,
+                    new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant()
+            )
+    );
+
+    public static final RegistryObject<HoeItem> EMERALD_HOE = ITEMS.register(
+            "emerald_hoe",
+            () -> new HoeItem(
+                    com.arsatecs.magicarmory.world.item.Tiers.EMERALD,
+                    -3,
+                    0.0F,
+                    new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant()
+            )
+    );
+
+    public static final RegistryObject<ShovelItem> EMERALD_SHOVEL = ITEMS.register(
+            "emerald_shovel",
+            () -> new ShovelItem(
+                    com.arsatecs.magicarmory.world.item.Tiers.EMERALD,
+                    1.5F,
+                    -3.0F,
+                    new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant()
+            )
+    );
+
+    public static final RegistryObject<Item> EMERALD_BOOTS = ITEMS.register(
+            "emerald_boots",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).fireResistant())
+    );
+
+    public static final RegistryObject<Item> EMERALD_CHESTPLATE = ITEMS.register(
+            "emerald_chestplate",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).fireResistant())
+    );
+
+    public static final RegistryObject<Item> EMERALD_HELMET = ITEMS.register(
+            "emerald_helmet",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).fireResistant())
+    );
+
+    public static final RegistryObject<Item> EMERALD_HORSE_ARMOR = ITEMS.register(
+            "emerald_horse_armor",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).fireResistant())
+    );
+
+    public static final RegistryObject<Item> EMERALD_LEGGINGS = ITEMS.register(
+            "emerald_leggings",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).fireResistant())
+    );
+
 
 }

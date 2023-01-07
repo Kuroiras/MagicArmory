@@ -6,5 +6,13 @@
   "item.magicarmory.fire_axe":"**Hacha de Fuego Fenix**",
   "item.magicarmory.emerald_axe":"Hacha de Esmeralda",
   "item.magicarmory.emerald_ingot":"Lingote de Esmeralda",
-  "item.magicarmory.emerald_sword":"Espada de Esmeralda"
+  "item.magicarmory.emerald_sword":"Espada de Esmeralda",
+  "item.magicarmory.emerald_pickaxe":"Pico de Esmeralda",
+  "item.magicarmory.emerald_hoe":"Azada de Esmeralda",
+  "item.magicarmory.emerald_shovel":"Pala de Esmeralda",
+  "item.magicarmory.emerald_helmet":"Yelmo de Esmeralda",
+  "item.magicarmory.emerald_chestplate":"Pechera de Esmeralda",
+  "item.magicarmory.emerald_leggings":"Grebas de Esmeralda",
+  "item.magicarmory.emerald_boots":"Botas de Esmeralda",
+  "item.magicarmory.emerald_horse_armor":"Armadura de Caballo de Esmeralda"
 }
