@@ -3,5 +3,8 @@
   "block.magicarmory.rainbow_block":"Bloque Arcoiris",
   "block.magicarmory.creeper_block":"Bloque Creeper",
   "block.magicarmory.bloody_wood":"Madera Sangrienta",
-  "item.magicarmory.fire_axe":"**Hacha de Fuego Fenix**"
+  "item.magicarmory.fire_axe":"**Hacha de Fuego Fenix**",
+  "item.magicarmory.emerald_axe":"Hacha de Esmeralda",
+  "item.magicarmory.emerald_ingot":"Lingote de Esmeralda",
+  "item.magicarmory.emerald_sword":"Espada de Esmeralda"
 }

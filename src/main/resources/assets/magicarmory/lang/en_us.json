@@ -3,5 +3,8 @@
   "block.magicarmory.rainbow_block":"Rainbow Block",
   "block.magicarmory.creeper_block":"Creeper Block",
   "block.magicarmory.bloody_wood":"Bloody Wood",
-  "item.magicarmory.fire_axe":"Fenix Fireaxe ***"
+  "item.magicarmory.fire_axe":"Fenix Fireaxe ***",
+  "item.magicarmory.emerald_axe":"Emerald Axe",
+  "item.magicarmory.emerald_ingot":"Emerald Ingot",
+  "item.magicarmory.emerald_sword":"Emerald Sword"
 }
