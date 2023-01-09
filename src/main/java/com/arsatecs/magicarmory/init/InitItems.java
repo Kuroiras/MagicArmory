@@ -1,6 +1,7 @@
 package com.arsatecs.magicarmory.init;
 
 import com.arsatecs.magicarmory.MagicArmory;
+import com.arsatecs.magicarmory.world.item.StaffItem;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
@@ -117,9 +118,9 @@ public class InitItems {
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant())
     );
 
-    public static final RegistryObject<Item> WOODS_STAFF = ITEMS.register(
+    public static final RegistryObject<StaffItem> WOODS_STAFF = ITEMS.register(
             "woods_staff",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant())
+            () -> new StaffItem(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant())
     );
 
 
