@@ -112,5 +112,15 @@ public class InitItems {
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).fireResistant())
     );
 
+    public static final RegistryObject<Item> FIRE_STAFF = ITEMS.register(
+            "fire_staff",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant())
+    );
+
+    public static final RegistryObject<Item> WOODS_STAFF = ITEMS.register(
+            "woods_staff",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant())
+    );
+
 
 }

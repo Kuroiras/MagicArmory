@@ -3,6 +3,7 @@ package com.arsatecs.magicarmory;
 import com.arsatecs.magicarmory.events.MobRendererEvens;
 import com.arsatecs.magicarmory.events.MobsAttrsEven;
 import com.arsatecs.magicarmory.events.MyEvents;
+import com.arsatecs.magicarmory.events.Spells;
 import com.arsatecs.magicarmory.init.BlockInit;
 import com.arsatecs.magicarmory.init.ConfigureFeatureInit;
 import com.arsatecs.magicarmory.init.InitItems;
@@ -29,5 +30,6 @@ public class MagicArmory {
         MOBS.register(bus);
         ConfigureFeatureInit.CONFIGURED_FEATURE.register(bus);
         PlaceFeatureInit.PLACED_FEATURE.register(bus);
+        EVENT_BUS.register(new Spells());
     }
 }
