@@ -5,7 +5,6 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.registries.DeferredRegister;
@@ -43,7 +42,7 @@ public class BlockInit {
             Supplier<T> supplier,
             Item.Properties properties) {
         RegistryObject<T> block = BLOCKS.register(name, supplier);
-        InitItems.ITEMS.register(name, () -> new BlockItem(block.get(), properties));
+        ItemInit.ITEMS.register(name, () -> new BlockItem(block.get(), properties));
         return block;
     }
 

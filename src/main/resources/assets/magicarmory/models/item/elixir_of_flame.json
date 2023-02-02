@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "magicarmory:items/elixir_of_flame"
+  }
+}

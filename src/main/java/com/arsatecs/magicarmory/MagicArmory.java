@@ -6,7 +6,7 @@ import com.arsatecs.magicarmory.events.MyEvents;
 import com.arsatecs.magicarmory.events.Spells;
 import com.arsatecs.magicarmory.init.BlockInit;
 import com.arsatecs.magicarmory.init.ConfigureFeatureInit;
-import com.arsatecs.magicarmory.init.InitItems;
+import com.arsatecs.magicarmory.init.ItemInit;
 import com.arsatecs.magicarmory.init.PlaceFeatureInit;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -21,7 +21,8 @@ public class MagicArmory {
 
     public MagicArmory() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-        InitItems.ITEMS.register(bus);
+
+        ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
         EVENT_BUS.register(new MyEvents());
 //        ENTITIES.register(bus);

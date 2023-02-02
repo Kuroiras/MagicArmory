@@ -1,11 +1,9 @@
 package com.arsatecs.magicarmory.events;
 
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
-import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 
-import static com.arsatecs.magicarmory.init.InitItems.FIRE_STAFF;
-import static com.arsatecs.magicarmory.init.InitItems.WOODS_STAFF;
+import static com.arsatecs.magicarmory.init.ItemInit.FIRE_STAFF;
 
 public class Spells {
 
